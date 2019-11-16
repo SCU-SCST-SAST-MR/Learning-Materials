@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Draw - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\elijia\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Draw.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\workspace\study\Èí¼þ¹¤³Ì\Draw\ROTATE.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\elijia\LOCALS~1\Temp\RSP125.tmp" 
+Creating temporary file "C:\DOCUME~1\elijia\LOCALS~1\Temp\RSP126.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Draw.pdb" /debug /machine:I386 /out:"Debug/Draw.exe" /pdbtype:sept 
+".\Debug\Draw.obj"
+".\Debug\ROTATE.OBJ"
+".\Debug\screen.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\elijia\LOCALS~1\Temp\RSP126.tmp"
+<h3>Output Window</h3>
+Compiling...
+ROTATE.CPP
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Draw.bsc"  ".\Debug\Draw.sbr" ".\Debug\ROTATE.SBR" ".\Debug\screen.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Draw.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
